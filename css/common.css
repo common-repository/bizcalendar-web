@@ -1,0 +1,234 @@
+
+p.nota {
+    font-size: 60%;
+    padding-top: 2em;
+}
+
+#bizcal-check-availability {
+    margin-top: 0.5em;
+}
+
+ul.bizcal-sel-time {
+    display: block;    
+    touch-action: auto !important;
+}
+
+.bizcal-sel-time li {
+    touch-action: auto !important;
+}
+.bizcal-sel-time {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+#bizcal-register-appointment-form label, input {
+    display: block;
+}
+
+#bizcal-register-appointment-form label {
+    font-size: 11pt;
+}
+
+#bizcal-register-appointment-form input.text {
+    margin-bottom: 12px;
+    width: 100%;
+    padding: .4em;
+    font-size: 12pt;
+}
+
+.bizcal-sel-med-small {
+    font-size: 80%;
+    font-weight: lighter;
+    font-style: italic;
+    line-height: normal;
+    overflow: hidden;
+}
+
+.bizcal-main-box div.zzzg-recaptcha {
+    float: left;
+    clear: left;
+    width: 320px;
+    height: 90px;
+}
+
+.bizcal-main-box a.bizcal-bme-logo {
+    background-image: url('images/logo_bizmedica_130.png');
+    background-position: top right;
+    background-repeat: no-repeat;
+    display: block;
+    width: calc(100% - 320px);
+    height: 130px;
+    float: right;
+    clear: right;
+    margin-top: 8px;
+    text-decoration: none;
+    border: 0px solid none;
+    box-shadow: none;
+    -moz-transition: none;
+    -webkit-transition: none;
+    -o-transition: color 0 ease-in;
+    transition: none;
+}
+
+.bizcal-ra-data-policy-container{
+    clear:both;
+}
+.bizcal-main-box a.bizcal-bme-logo {
+    width: 90px;
+    height: 90px;
+	background-size:contain;
+}
+
+.bizcal-main-box a.bizcal-bme-logo:hover, .bizcal-main-box a.bizcal-bme-logo:visited, .bizcal-main-box a.bizcal-bme-logo:active {
+    text-decoration: none;
+    box-shadow: none;
+    -moz-transition: none;
+    -webkit-transition: none;
+    -o-transition: color 0 ease-in;
+    transition: none;
+}
+
+.bizcal-main-box li.setrio-bizcal-available-physician {
+    /*position: relative;*/
+    clear: both;
+    width: 100%;
+    display: block;
+    padding-bottom: 8px;
+}
+
+.bizcal-main-box li.ui-button + li.setrio-bizcal-available-physician {
+    float: left;
+    margin-top: 8px;
+    padding-top: 10px;
+    border-top: solid 1px gray /* blue; /* gray; /*#F39814;*/;
+}
+
+.bizcal-main-box div.setrio-bizcal-available-physician-picture-container {
+    float: left;
+    margin-left: 0;
+    margin-right: 8px;
+    margin-top: 0;
+    margin-bottom: 8px;
+    padding: 0;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+}
+
+.bizcal-main-box img.setrio-bizcal-available-physician-picture {
+    margin: auto;
+    max-width: 100px;
+    max-height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+}
+
+.bizcal-main-box div.setrio-bizcal-available-physician-name {
+    font-weight: bold;
+    font-size: 120%;
+    display: inline-block;
+}
+
+.bizcal-main-box div.setrio-bizcal-available-physician-price {
+    font-weight: bold;
+    color: blue;
+}
+
+.bizcal-main-box div.setrio-bizcal-available-physician-price span {
+    font-weight: normal;
+    color: black;
+}
+
+.bizcal-main-box div.setrio-bizcal-available-physician-description {
+    font-weight: normal;
+    font-size: 75%;
+}
+
+/* VARIANTA CU POPUP */
+
+.bizcal-main-box .ui-dialog-content .col-lg-8 {
+    width: 60%;
+    float: left;
+}
+
+.bizcal-main-box .ui-dialog-content .col-lg-4 {
+    width: 38%;
+    float: right;
+}
+
+.bizcal-main-box .ui-dialog-content #bizcal-register-appointment-button {
+        display: none;
+}
+
+div.w-100 {
+    width: 100%;
+    clear: both;
+}
+
+.bizcal-main-box-vue .row {
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.bizcal-ra-terms-caption.checkbox{
+	clear:both;
+}
+#bizcal-register-appointment-form input[type=checkbox] {
+    display:inline-block;
+	vertical-align: top;
+}
+
+@media (max-width: 991px) {
+    .bizcal-main-box .ui-dialog-content .col-lg-8 {
+        width: 100%;
+        float: left;
+    }
+
+    .bizcal-main-box .ui-dialog-content .col-lg-4 {
+        width: 100%;
+        float: left;
+    }
+    
+    .bizcal-main-box a.bizcal-bme-logo {
+        clear: both;
+        width: 100%;
+        background-position: center;
+        margin-top: 0px;
+        margin-bottom: 0px;
+		float: none;
+		display: none;
+    }
+    
+    .bizcal-main-box .ui-dialog-content #bizcal-register-appointment-button {
+        display: none;
+    }
+   
+    .bizcal-main-box div.g-recaptcha {
+        width: 100%;
+        max-width: 100%;
+        overflow: hidden;
+        display: block;
+        position: absolute;
+    }
+    
+    .bizcal-main-box input[type="text"] {
+        width: 100%;
+    }
+    
+    .bizcal-main-box button[type="submit"] {
+        width: 100%;
+    }
+	
+	.bizcal-main-box div.bizcal-dialog-warning, .bizcal-main-box div.bizcal-dialog-error {
+		font-size: 10pt;
+	}
+	
+	.bizcal-main-box div.bizcal-dialog-warning div.ui-dialog-content, .bizcal-main-box div.bizcal-dialog-error div.ui-dialog-content {
+		font-size: 10pt;
+	}
+}

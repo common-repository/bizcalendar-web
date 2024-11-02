@@ -1,0 +1,1213 @@
+
+.bizcal-main-box, #bizcal-register-appointment-form input {
+    font-family: Calibri, Arial, sans-serif !important;
+    font-size: 12pt;
+}
+
+
+.bizcal-main-box .ui-dialog-content, .bizcal-main-box .ui-dialog-titlebar {
+    font-size: 14pt;
+}
+
+/* Quasar */
+
+.bizcal-main-box .select2-container li {
+    font-family: /*"Noto Sans", Arial,*/ Calibri, Arial, sans-serif !important;
+    font-size: 12pt;
+    font-weight: normal;
+    box-sizing: content-box;
+}
+
+.bizcal-main-box .bizcal-select2-upper .select2-container li {
+    text-transform: uppercase;
+}
+
+.bizcal-main-box label, .bizcal-main-box #bizcal-sel-time-physician {
+    font-family: /*"Noto Sans", Arial,*/ sans-serif !important;
+    display: block;
+    font-weight: normal;
+}
+
+.bizcal-main-box .ui-button {
+    padding: .4em 1em;
+}
+
+.select2-bizcal-sel-serv-container {
+    display: block;
+}
+
+.select2-container li {
+    font-family: /*"Noto Sans", Arial,*/ sans-serif !important;
+    padding: 1px 2px;
+}
+
+.bizcal-main-box .select2-selection__rendered {
+    display: block;
+    width: 100%;
+}
+
+.bizcal-sel-serv-selected-price, .bizcal-sel-med-selected-price {
+    text-align: right;
+    /*position: absolute;*/
+    /*right: 1.2em;*/
+    color: blue;
+    /*margin-top: -28px;*/
+}
+
+.bizcal-main-box .ui-widget a {
+    /*border-bottom: solid 1px transparent;*/
+}
+
+.select2-results li .price {
+    /*float: right;*/
+    color: blue;
+}
+
+.select2-results li.select2-results__option--highlighted .price {
+    color: yellow;
+}
+
+
+#bizcal-sel-date a.ui-state-highlight {
+    background: #D7EBF9 url(images/ui-bg_glass_80_d7ebf9_1x400.png) repeat-x scroll 50% 50%;
+    color: #2779aa;
+    border: 1px solid #AED0EA;
+}
+
+#bizcal-sel-date a.ui-state-active {
+    background: #3baae3 url(images/ui-bg_glass_50_3baae3_1x400.png) repeat-x scroll 50% 50%;
+    font-weight:bold;
+    color: #fff;
+    border: 1px solid #2694e8;
+}
+
+#bizcal-sel-date .ui-state-hover {
+    background: #e4f1fb url(images/ui-bg_glass_100_e4f1fb_1x400.png) repeat-x scroll 50% 50%;
+    font-weight:bold;
+    color: #0070a3;
+    border: 1px solid #74b2e2;
+}
+
+#bizcal-sel-time li.ui-button {
+    margin: 3px;
+    /*padding: 0.4em;*/
+    font-size: 10pt;
+    height: 32px;
+    width: 120px;
+    display: block;
+    border: solid 1px black;
+    text-align: center;
+    float: left;
+}
+
+#bizcal-sel-time li.setrio-bizcal-available-physician + li.ui-button {
+    clear: left;
+}
+
+#bizcal-sel-time .ui-selecting {
+     background: #FECA40;
+}
+
+#bizcal-sel-time .ui-selected {
+    background: #F39814;
+    color: white;
+}
+
+#bizcal-sel-time-result {
+    background: #FECA40;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+/* Registration form */
+
+#bizcal-register-appointment-form textarea {
+    background-color: #f8f8f8 /*#FAFBFC*/;
+    background-image: none;
+}
+
+#bizcal-register-appointment-form fieldset {
+    padding:0; border:0; margin-top:25px;
+}
+
+#bizcal-register-appointment-form h1 {
+    font-size: 1.2em; margin: .6em 0; 
+}
+
+#bizcal-register-appointment-form .ui-dialog .ui-state-error { 
+    padding: .3em; 
+}
+
+#bizcal-register-appointment-form .validateTips {
+    border: 1px solid transparent; padding: 0.3em;
+}
+
+/* Messages */
+
+.bizcal-dialog-error .ui-widget-header {
+    /*background: #fa0404 url("images/ui-bg_highlight-soft_75_cccccc_1x100.png") repeat-x scroll 50% 50%;*/
+    background: #fa0404;
+    border: 1px solid #ff0000;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.bizcal-dialog-error .ui-widget-header span {
+    color: #ffffff;
+}
+
+.bizcal-dialog-warning .ui-widget-header {
+    /*background: #F1E6AF url("images/ui-bg_highlight-soft_75_cccccc_1x100.png") repeat-x scroll 50% 50%;*/
+    background: #F1E6AF;
+    border: 1px solid #ff0000;
+    color: #000000;
+    font-weight: bold;
+    /*display: block;*/
+}
+
+.bizcal-dialog-warning .ui-widget-header span {
+    color: #000000;
+}
+
+/* jQuery UI Theme Roller */
+
+.bizcal-main-box table.ui-datepicker-calendar td a.ui-state-hover, .bizcal-main-box table.ui-datepicker-calendar td a.ui-state-default:hover {
+    -webkit-box-shadow: inset 0 -1px 0 rgba(15, 15, 15, 1);;
+    box-shadow: inset 0 -1px 0 rgba(15, 15, 15, 1);;
+}
+
+/* SELECT 2 JQUERY UI */
+.bizcal-main-box .select2-container
+{
+    font-size: 12pt;
+    margin-bottom: 12px;
+    background: #f2f5f7 url("images/ui-bg_highlight-soft_100_eeeeee_1x100.png") 50% top repeat-x;
+    color: red;
+}
+
+.bizcal-main-box .select2-selection
+{
+    height: 36px;
+    background: #f2f5f7 url("images/ui-bg_highlight-soft_100_eeeeee_1x100.png") 50% top repeat-x;
+    border-color: #ddd;
+    border-radius: 6px;
+}
+
+.bizcal-main-box .bizcal-select2-upper .select2-selection
+{
+    text-transform: uppercase;
+}
+
+.bizcal-main-box .select2-selection__rendered
+{
+    line-height: 36px !important;
+}
+
+.bizcal-main-box span.select2-selection__arrow
+{
+    height: 36px !important;
+}
+
+.bizcal-main-box .ui-dialog {
+    /*display: flow-root !important;*/
+}
+
+#select2-bizcal-sel-spec-results li,
+    #select2-bizcal-sel-location-results li,
+    #select2-bizcal-sel-payment-results li,
+    #select2-bizcal-sel-serv-results li,
+    #select2-bizcal-sel-med-results li {
+    font-size: 12pt;
+}
+
+.bizcal-select2-upper #select2-bizcal-sel-spec-results li,
+    .bizcal-select2-upper #select2-bizcal-sel-location-results li,
+    .bizcal-select2-upper #select2-bizcal-sel-payment-results li,
+    .bizcal-select2-upper #select2-bizcal-sel-serv-results li,
+    .bizcal-select2-upper #select2-bizcal-sel-med-results li {
+    text-transform: uppercase;
+}
+
+.select2-results__option.loading-results,
+.select2-results__option.select2-results__option--load-more {
+    background-image: url('images/ajax-loader.gif');
+    background-repeat: no-repeat;
+    padding-left: 35px;
+    background-position: 10px 50%;
+}
+
+.bizcal-main-box div#bizcal-sel-time-container .ui-button {
+    color: #1c94c4;
+    text-decoration: none;
+    border: 1px solid #ccc;
+    background: #f6f6f6 url("images/ui-bg_glass_100_f6f6f6_1x400.png") 50% 50% repeat-x;
+    font-weight: bold;
+}
+
+.bizcal-main-box div#bizcal-sel-time-container .ui-selected,
+.bizcal-main-box div#bizcal-sel-time-container li.ui-selected:hover,
+.bizcal-main-box div#bizcal-sel-time-container li.ui-selected:focus {
+    background: #F39814;
+    color: white;
+}
+
+.bizcal-main-box div#bizcal-sel-time-container .ui-button:hover,
+.bizcal-main-box div#bizcal-sel-time-container .ui-button:focus {
+    border: 1px solid #fbcb09;
+    background: #fdf5ce url("images/ui-bg_glass_100_fdf5ce_1x400.png") 50% 50% repeat-x;
+    font-weight: bold;
+    color: #c77405;
+}
+
+.bizcal-main-box, #bizcal-register-appointment-form input {
+    font-family: Calibri, Arial, sans-serif !important;
+    font-size: 12pt;
+}
+
+.bizcal-main-box .ui-dialog-content, .bizcal-main-box .ui-dialog-titlebar {
+    font-size: 14pt;
+}
+
+.bizcal-main-box .select2-container li {
+    font-family: /*"Noto Sans", Arial,*/ Calibri, Arial, sans-serif !important;
+    font-size: 12pt;
+    font-weight: normal;
+    box-sizing: content-box;
+}
+
+.bizcal-main-box .bizcal-select2-upper .select2-container li {
+    text-transform: uppercase;
+}
+
+.bizcal-main-box label, .bizcal-main-box #bizcal-sel-time-physician {
+    font-family: /*"Noto Sans", Arial,*/ sans-serif !important;
+    display: block;
+    font-weight: normal;
+}
+
+.bizcal-main-box .ui-button {
+    padding: .4em 1em;
+}
+
+.select2-bizcal-sel-serv-container {
+    display: block;
+}
+
+.select2-container li {
+    font-family: /*"Noto Sans", Arial,*/ sans-serif !important;
+    padding: 1px 2px;
+}
+
+.bizcal-main-box .select2-selection__rendered {
+    display: block;
+    width: 100%;
+}
+
+.bizcal-sel-serv-selected-price, .bizcal-sel-med-selected-price {
+    text-align: right;
+    /*position: absolute;*/
+    /*right: 1.2em;*/
+    color: blue;
+    /*margin-top: -28px;*/
+}
+
+.bizcal-main-box .ui-widget a {
+    /*border-bottom: solid 1px transparent;*/
+}
+
+.select2-results li .price {
+    /*float: right;*/
+    color: blue;
+}
+
+.select2-results li.select2-results__option--highlighted .price {
+    color: yellow;
+}
+
+p.nota {
+    font-size: 60%;
+    padding-top: 2em;
+}
+
+#bizcal-check-availability {
+    margin-top: 0.5em;
+}
+
+#bizcal-sel-date a.ui-state-highlight {
+    background: #D7EBF9 url(images/ui-bg_glass_80_d7ebf9_1x400.png) repeat-x scroll 50% 50%;
+    color: #2779aa;
+    border: 1px solid #AED0EA;
+}
+
+#bizcal-sel-date a.ui-state-active {
+    background: #3baae3 url(images/ui-bg_glass_50_3baae3_1x400.png) repeat-x scroll 50% 50%;
+    font-weight:bold;
+    color: #fff;
+    border: 1px solid #2694e8;
+}
+
+#bizcal-sel-date .ui-state-hover {
+    background: #e4f1fb url(images/ui-bg_glass_100_e4f1fb_1x400.png) repeat-x scroll 50% 50%;
+    font-weight:bold;
+    color: #0070a3;
+    border: 1px solid #74b2e2;
+}
+
+#bizcal-sel-time {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+#bizcal-sel-time li.ui-button {
+    margin: 3px;
+    /*padding: 0.4em;*/
+    font-size: 10pt;
+    height: 32px;
+    width: 120px;
+    display: block;
+    /*! border: solid 1px black; */
+    text-align: center;
+    float: left;
+}
+
+#bizcal-sel-time .ui-selecting {
+     background: #FECA40;
+}
+
+#bizcal-sel-time .ui-selected {
+    background: #F39814; color: white;
+}
+
+#bizcal-sel-time-result {
+    background: #FECA40;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+/* Registration form */
+
+#bizcal-register-appointment-form label, input {
+    display: block;
+}
+
+#bizcal-register-appointment-form label {
+    font-size: 11pt;
+}
+
+#bizcal-register-appointment-form input.text {
+    margin-bottom: 12px;
+    width: 100%;
+    padding: .4em;
+    font-size: 12pt;
+}
+
+#bizcal-register-appointment-form textarea {
+    background-color: #f8f8f8 /*#FAFBFC*/;
+    background-image: none;
+}
+
+#bizcal-register-appointment-form fieldset {
+    padding:0; border:0; margin-top:25px;
+}
+
+#bizcal-register-appointment-form h1 {
+    font-size: 1.2em; margin: .6em 0; 
+}
+
+#bizcal-register-appointment-form .ui-dialog .ui-state-error { 
+    padding: .3em; 
+}
+
+#bizcal-register-appointment-form .validateTips {
+    border: 1px solid transparent; padding: 0.3em;
+}
+
+/* Messages */
+
+.bizcal-dialog-error .ui-widget-header {
+    /*background: #fa0404 url("images/ui-bg_highlight-soft_75_cccccc_1x100.png") repeat-x scroll 50% 50%;*/
+    background: #fa0404;
+    border: 1px solid #ff0000;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.bizcal-dialog-error .ui-widget-header span {
+    color: #ffffff;
+}
+
+.bizcal-dialog-warning .ui-widget-header {
+    /*background: #F1E6AF url("images/ui-bg_highlight-soft_75_cccccc_1x100.png") repeat-x scroll 50% 50%;*/
+    background: #F1E6AF;
+    border: 1px solid #ff0000;
+    color: #000000;
+    font-weight: bold;
+    /*display: block;*/
+}
+
+.bizcal-dialog-warning .ui-widget-header span {
+    color: #000000;
+}
+
+/* SELECT 2 JQUERY UI */
+.bizcal-main-box .select2-container
+{
+    font-size: 12pt;
+    margin-bottom: 12px;
+    background: #f2f5f7 url("images/ui-bg_highlight-soft_100_eeeeee_1x100.png") 50% top repeat-x;
+    color: red;
+}
+
+.bizcal-main-box .select2-selection
+{
+    height: 36px;
+    background: #f2f5f7 url("images/ui-bg_highlight-soft_100_eeeeee_1x100.png") 50% top repeat-x;
+    border-color: #ddd;
+    border-radius: 6px;
+}
+
+.bizcal-main-box .bizcal-select2-upper .select2-selection
+{
+    text-transform: uppercase;
+}
+
+.bizcal-main-box .select2-selection__rendered
+{
+    line-height: 36px !important;
+}
+
+.bizcal-main-box span.select2-selection__arrow
+{
+    height: 36px !important;
+}
+
+.bizcal-main-box .ui-dialog {
+    /*display: flow-root !important;*/
+}
+
+#select2-bizcal-sel-spec-results li,
+    #select2-bizcal-sel-location-results li,
+    #select2-bizcal-sel-payment-results li,
+    #select2-bizcal-sel-serv-results li,
+    #select2-bizcal-sel-med-results li {
+    font-size: 12pt;
+}
+
+.bizcal-select2-upper #select2-bizcal-sel-spec-results li,
+    .bizcal-select2-upper #select2-bizcal-sel-location-results li,
+    .bizcal-select2-upper #select2-bizcal-sel-payment-results li,
+    .bizcal-select2-upper #select2-bizcal-sel-serv-results li,
+    .bizcal-select2-upper #select2-bizcal-sel-med-results li {
+    text-transform: uppercase;
+}
+
+.select2-results__option.loading-results,
+.select2-results__option.select2-results__option--load-more {
+    background-image: url('images/ajax-loader.gif');
+    background-repeat: no-repeat;
+    padding-left: 35px;
+    background-position: 10px 50%;
+}
+
+.bizcal-sel-med-small {
+    font-size: 80%;
+    font-weight: lighter;
+    font-style: italic;
+    line-height: normal;
+    overflow: hidden;
+}
+
+/* PERSONALIZARI CLIENTI */
+
+/* DIGEST MED */
+
+div#medicom-layout .bizcal-main-box #bizcal-register-appointment-button {
+    background-image: none;
+    background-color: #3e9665;
+    color: #fff;
+    float: left;
+    clear: left;
+    width: 320px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 22px;
+    padding: 5px 20px;
+    letter-spacing: 1px;
+    border-color: #3e9665;
+    border-radius: 50px;
+}
+
+body._35200141_digestmed_srl .bizcal-main-box span.ui-dialog-title {
+    color: white;
+}
+
+body._35200141_digestmed_srl .bizcal-main-box div.ui-dialog {
+    z-index: 999990 !important;
+}
+
+body._35200141_digestmed_srl .select2-container--open {
+    z-index: 999991 !important;
+}
+
+/* HURMUZ MED */
+
+div.hurmuz-med .bizcal-main-box div.g-recaptcha {
+    float: left;
+    clear: both;
+}
+
+div.hurmuz-med .bizcal-main-box #bizcal-register-appointment-button {
+    float: left;
+    clear: both;
+}
+
+/* MEDIBLUE */
+
+body._37155047_sofimed_iasi_srl .bizcal-main-box #bizcal-register-appointment-button {
+    float: left;
+    clear: both;
+    margin-top: 80px !important;
+}
+
+body._37155047_sofimed_iasi_srl div.bizcal-sel-appointment-params-container {
+    float: left;
+    width: 50%;
+}
+
+body._37155047_sofimed_iasi_srl div.bizcal-sel-appointment-date-container {
+    float: right;
+    width: 48%;
+}
+
+body._37155047_sofimed_iasi_srl div.bizcal-ra-last-name-container, body._37155047_sofimed_iasi_srl div.bizcal-ra-phone-container {
+    clear: left;
+    float: left;
+    width: 50%;
+}
+
+body._37155047_sofimed_iasi_srl div.bizcal-ra-first-name-container, body._37155047_sofimed_iasi_srl div.bizcal-ra-email-container {
+    float: right;
+    width: 48%;
+}
+
+@media (max-width: 768px) {
+    body._37155047_sofimed_iasi_srl .bizcal-sel-appointment-date-container,
+        body._37155047_sofimed_iasi_srl .col-md-12,
+        body._37155047_sofimed_iasi_srl div.bizcal-sel-appointment-date-container {
+        width: 100% !important;
+    }
+}
+
+/* BLUELIFE */
+
+div.imd-fluid-layout div.bizcal-main-box {
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+div.imd-fluid-layout .bizcal-main-box div.g-recaptcha {
+    float: left;
+    margin-top: 16px !important;
+}
+
+div.imd-fluid-layout .bizcal-main-box #bizcal-register-appointment-button {
+    float: left;
+    clear: both;
+    margin-top: 8px !important;
+}
+
+div.imd-fluid-layout .bizcal-main-box .ui-state-default, div.imd-fluid-layout .bizcal-main-box .ui-widget-content .ui-state-default {
+    border-radius: 0;
+    font-size: 100%;
+}
+
+div.imd-fluid-layout .bizcal-main-box .ui-widget-header {
+    background-color: #006591;
+    border-color: #016692;
+    background-image: none;
+}
+
+div.imd-fluid-layout .bizcal-main-box .ui-widget-header .ui-icon {
+    background-image: url("images/ui-icons_ffffff_256x240.png");
+}
+
+div.imd-fluid-layout .bizcal-main-box .ui-dialog-titlebar-close, div.imd-fluid-layout .bizcal-main-box .ui-datepicker-prev, div.imd-fluid-layout .bizcal-main-box .ui-datepicker-next {
+    background-color: #006591;
+}
+
+div.imd-fluid-layout .bizcal-main-box .ui-dialog-titlebar-close {
+    background-image: url("images/ui-icons_ffffff_256x240.png");
+    background-position: -94px -126px;
+}
+
+div.imd-fluid-layout .bizcal-main-box .ui-dialog-titlebar-close:hover, div.imd-fluid-layout .bizcal-main-box .ui-datepicker-prev:hover,
+div.imd-fluid-layout .bizcal-main-box .ui-datepicker-next:hover, div.imd-fluid-layout .bizcal-main-box .ui-state-hover {
+    background-color: #1075a1;
+}
+
+div.imd-fluid-layout .bizcal-main-box .setrio-bizcal-available-physician-name {
+    color: black;
+}
+
+div.imd-fluid-layout .bizcal-main-box a.bizcal-bme-logo {
+    border-radius: 0;
+    width: calc(100% - 340px);
+    background-color: transparent;
+}
+    
+/* VITALITY */
+
+div.zn_pb_wrapper .bizcal-main-box div.g-recaptcha {
+    float: left;
+    clear: both;
+}
+
+div.zn_pb_wrapper .bizcal-main-box #bizcal-register-appointment-button {
+    float: left;
+    clear: both;
+}
+
+
+div.zn_pb_wrapper .bizcal-main-box .ui-widget-header {
+    background-color: #78c1b9;
+    background-image: url('#');
+    border-color: #78c1b9;
+}
+
+/* PROSANA - FUSION */
+
+body.fusion-avatar-square .bizcal-main-box div.g-recaptcha {
+    float: left;
+    clear: both;
+}
+
+body.fusion-avatar-square .bizcal-main-box #bizcal-register-appointment-button {
+    float: left;
+    clear: both;
+}
+
+body.fusion-avatar-square .bizcal-main-box span.select2-selection__arrow {
+    height: inherit !important;
+}
+
+body.fusion-avatar-square .bizcal-main-box .select2-selection__rendered {
+    line-height: 29px !important;    
+    padding-right: 50px;
+}
+
+body.fusion-avatar-square .bizcal-main-box .ui-widget-header {
+    background-color: #812e2f;
+    border-color: #822f2e;
+    background-image: none;
+}
+
+body.fusion-avatar-square .bizcal-main-box .ui-button {
+    color: #812e2f; 
+}
+
+body.fusion-avatar-square .bizcal-main-box #bizcal-register-appointment-button {
+    background-color: #812e2f;
+    border-color: #822f2e;
+    background-image: none;
+    color: white;
+}
+
+body.fusion-avatar-square .bizcal-main-box .ui-state-focus,
+    body.fusion-avatar-square .bizcal-main-box .ui-widget-content .ui-state-focus,
+    body.fusion-avatar-square .bizcal-main-box .ui-widget-header .ui-state-focus,
+    body.fusion-avatar-square .bizcal-main-box .ui-button:focus,
+    body.fusion-avatar-square .bizcal-main-box #bizcal-sel-time .ui-selected{
+    background-color: #812e2f;
+    border-color: #822f2e;
+    background-image: none;
+    color: white;
+}
+
+body.fusion-avatar-square .bizcal-main-box .ui-state-hover,
+    body.fusion-avatar-square .bizcal-main-box .ui-widget-content .ui-state-hover,
+    body.fusion-avatar-square .bizcal-main-box .ui-widget-header .ui-state-hover,
+    body.fusion-avatar-square .bizcal-main-box .ui-button:hover {
+    background-color: #af2123;
+    border-color: #ae2224;
+    background-image: none;
+    color: white;
+}
+
+/* SANTEVERA */
+
+body._32107197_sante_vera_med_srl .bizcal-main-box .ui-datepicker.ui-widget {
+    z-index: auto !important;
+}
+
+body._32107197_sante_vera_med_srl .bizcal-main-box .ui-datepicker.ui-widget .ui-datepicker-header {
+    padding: 0;
+}
+
+body._32107197_sante_vera_med_srl .bizcal-main-box .ui-datepicker.ui-widget .ui-datepicker-header .ui-datepicker-prev,
+body._32107197_sante_vera_med_srl .bizcal-main-box .ui-datepicker.ui-widget .ui-datepicker-header .ui-datepicker-next {
+    height: 32px;
+}
+
+body._32107197_sante_vera_med_srl .bizcal-main-box .ui-datepicker.ui-widget .ui-datepicker-header .ui-datepicker-prev:before,
+body._32107197_sante_vera_med_srl .bizcal-main-box .ui-datepicker.ui-widget .ui-datepicker-header .ui-datepicker-next:before,
+body._32107197_sante_vera_med_srl .bizcal-main-box .ui-datepicker.ui-widget .ui-datepicker-header .ui-datepicker-prev-hover,
+body._32107197_sante_vera_med_srl .bizcal-main-box .ui-datepicker.ui-widget .ui-datepicker-header .ui-datepicker-next-hover {
+    line-height: 1em;
+}
+
+body._32107197_sante_vera_med_srl .bizcal-main-box .ui-datepicker.ui-widget .ui-datepicker-calendar {
+    line-height: 16px;
+}
+
+body._32107197_sante_vera_med_srl .bizcal-main-box .ui-datepicker.ui-widget .ui-datepicker-calendar th {
+    padding: 8px 2px;
+}
+
+body._32107197_sante_vera_med_srl .bizcal-main-box .ui-datepicker.ui-widget .ui-datepicker-calendar td span,
+body._32107197_sante_vera_med_srl .bizcal-main-box .ui-datepicker.ui-widget .ui-datepicker-calendar td a,
+body._32107197_sante_vera_med_srl .bizcal-main-box .ui-datepicker.ui-widget .ui-datepicker-calendar td a.ui-state-hover,
+body._32107197_sante_vera_med_srl .bizcal-main-box .ui-datepicker.ui-widget .ui-datepicker-calendar td a:hover {
+    padding: 8px 2px;
+    margin: 0;
+    border: solid 1px transparent;
+}
+
+body._32107197_sante_vera_med_srl .bizcal-main-box .ui-datepicker.ui-widget .ui-datepicker-calendar th span {
+    padding: 0;
+}
+
+body._32107197_sante_vera_med_srl .bizcal-main-box .col-lg-8 {
+    width: 65%;
+    float: left;
+}
+
+body._32107197_sante_vera_med_srl .bizcal-main-box .col-lg-4 {
+    width: 33%;
+    float: right;
+    clear: right;
+}
+
+body._32107197_sante_vera_med_srl .bizcal-main-box span#select2-bizcal-sel-spec-container,
+body._32107197_sante_vera_med_srl .bizcal-main-box span#select2-bizcal-sel-location-container,
+body._32107197_sante_vera_med_srl .bizcal-main-box span#select2-bizcal-sel-payment-container,
+body._32107197_sante_vera_med_srl .bizcal-main-box span#select2-bizcal-sel-serv-container,
+body._32107197_sante_vera_med_srl .bizcal-main-box span#select2-bizcal-sel-med-container,
+body._32107197_sante_vera_med_srl .bizcal-main-box span#select2-bizcal-sel-preferred-physician-container {
+    padding: 0 20px 0 8px;
+    text-align: left;
+}
+
+body._32107197_sante_vera_med_srl ul#select2-bizcal-sel-spec-results .select2-results__option,
+body._32107197_sante_vera_med_srl ul#select2-bizcal-sel-location-results .select2-results__option,
+body._32107197_sante_vera_med_srl ul#select2-bizcal-sel-payment-results .select2-results__option,
+body._32107197_sante_vera_med_srl ul#select2-bizcal-sel-serv-results .select2-results__option,
+body._32107197_sante_vera_med_srl ul#select2-bizcal-sel-med-results .select2-results__option,
+body._32107197_sante_vera_med_srl ul#select2-bizcal-sel-preferred-physician-results .select2-results__option {
+    min-height: 24px;
+    height: auto;
+}
+
+body._32107197_sante_vera_med_srl ul#select2-bizcal-sel-spec-results .select2-results__option--highlighted[aria-selected],
+body._32107197_sante_vera_med_srl ul#select2-bizcal-sel-spec-results .select2-results__option--highlighted[data-selected],
+body._32107197_sante_vera_med_srl ul#select2-bizcal-sel-location-results .select2-results__option--highlighted[aria-selected],
+body._32107197_sante_vera_med_srl ul#select2-bizcal-sel-location-results .select2-results__option--highlighted[data-selected],
+body._32107197_sante_vera_med_srl ul#select2-bizcal-sel-payment-results .select2-results__option--highlighted[aria-selected],
+body._32107197_sante_vera_med_srl ul#select2-bizcal-sel-payment-results .select2-results__option--highlighted[data-selected],
+body._32107197_sante_vera_med_srl ul#select2-bizcal-sel-serv-results .select2-results__option--highlighted[aria-selected],
+body._32107197_sante_vera_med_srl ul#select2-bizcal-sel-serv-results .select2-results__option--highlighted[data-selected],
+body._32107197_sante_vera_med_srl ul#select2-bizcal-sel-med-results .select2-results__option--highlighted[aria-selected],
+body._32107197_sante_vera_med_srl ul#select2-bizcal-sel-med-results .select2-results__option--highlighted[data-selected],
+body._32107197_sante_vera_med_srl ul#select2-bizcal-sel-preferred-physician-results .select2-results__option--highlighted[aria-selected],
+body._32107197_sante_vera_med_srl ul#select2-bizcal-sel-preferred-physician-results .select2-results__option--highlighted[data-selected] {
+    background-color: #5897fb;
+}
+
+body._32107197_sante_vera_med_srl .bizcal-main-box #bizcal-register-appointment-button {
+    background-color: #03433f;
+    color: white;
+    font-size: 120%;
+    font-weight: bold;
+}
+
+body._32107197_sante_vera_med_srl .bizcal-main-box li.setrio-bizcal-available-physician {
+    text-align: left;
+}
+
+body._32107197_sante_vera_med_srl .bizcal-main-box label {
+    text-align: left;
+}
+
+body._32107197_sante_vera_med_srl .bizcal-main-box {
+    margin-top: 2em;
+}
+
+/* NEUROLOGY CLINIC */
+
+body._34640950_neurology_clinic_srl #select2-bizcal-sel-serv-results li div.price {
+    font-size: 12pt !important;
+    font-weight: 400 !important;
+}
+
+/* NOVADERM */
+
+body._30421621_innovative_constanta .bizcal-main-box div.ui-dialog {
+    z-index: 1040;
+}
+
+body._30421621_innovative_constanta .bizcal-main-box .select2-selection__rendered {
+    display: block;
+    width: inherit;
+}
+
+body._30421621_innovative_constanta .bizcal-main-box .ui-widget-header {
+    background-color: #C4001D;
+    border-color: #C4001D;
+    background-image: none;
+}
+
+body._30421621_innovative_constanta .bizcal-main-box .ui-dialog-titlebar-close {
+    background-image: none;
+    background-color: #C4001D;
+}
+
+body._30421621_innovative_constanta .bizcal-main-box .ui-widget-header .ui-icon {
+    background-image: url("images/ui-icons_ffffff_256x240.png");
+    background-color: #D4102D;
+}
+
+body._30421621_innovative_constanta .bizcal-main-box .ui-dialog-titlebar-close, body._30421621_innovative_constanta .bizcal-main-box .ui-datepicker-prev,
+    body._30421621_innovative_constanta .bizcal-main-box .ui-datepicker-next {
+    background-color: #D4102D;
+}
+
+body._112121_30421621_innovative_constanta .bizcal-main-box .ui-dialog-titlebar-close {
+    background-image: url("images/ui-icons_ffffff_256x240.png");
+    background-position: -94px -126px;
+}
+body._30421621_innovative_constanta .bizcal-main-box .ui-dialog-titlebar-close:hover,
+    body._30421621_innovative_constanta .bizcal-main-box .ui-datepicker-prev:hover,
+    body._30421621_innovative_constanta .bizcal-main-box .ui-datepicker-next:hover,
+    body._30421621_innovative_constanta #bizcal-sel-date .ui-state-hover {
+        background-color: #D4102D !important;
+        background-image: none;
+}
+
+body._30421621_innovative_constanta .bizcal-main-box div#bizcal-sel-time-container .ui-button {
+    line-height: 32px;
+}
+
+body._30421621_innovative_constanta .bizcal-main-box div#bizcal-sel-time-container .ui-selected,
+body._30421621_innovative_constanta .bizcal-main-box div#bizcal-sel-time-container li.ui-selected:hover,
+body._30421621_innovative_constanta .bizcal-main-box div#bizcal-sel-time-container li.ui-selected:focus {
+    background: #C4001D;
+    color: white;
+}
+
+body._30421621_innovative_constanta .bizcal-main-box input.setrio-bizcal-appointment-button {
+    white-space: normal;
+    text-align: center;
+}
+
+/* RESTARTMED */
+ 
+body._16576396_psiho_test_med_terapy_s_r_l_ .bizcal-main-box div.ui-dialog {
+               z-index: 1040;
+}
+ 
+body._16576396_psiho_test_med_terapy_s_r_l_ .bizcal-main-box .select2-selection__rendered {
+   display: block;
+    width: inherit;
+}
+ 
+body._16576396_psiho_test_med_terapy_s_r_l_ .bizcal-main-box .ui-widget-header {
+               background-color: #10a585;
+               border-color: #10a585;
+               background-image: none;
+}
+ 
+body._16576396_psiho_test_med_terapy_s_r_l_ .bizcal-main-box .ui-dialog-titlebar-close {
+               background-image: none;
+               background-color: #10a585;
+}
+ 
+body._16576396_psiho_test_med_terapy_s_r_l_ .bizcal-main-box .ui-widget-header .ui-icon {
+               background-image: url("images/ui-icons_ffffff_256x240.png");
+               background-color: #10a585;
+}
+ 
+body._16576396_psiho_test_med_terapy_s_r_l_ .bizcal-main-box .ui-dialog-titlebar-close, body._16576396_psiho_test_med_terapy_s_r_l_ .bizcal-main-box .ui-datepicker-prev,
+    body._16576396_psiho_test_med_terapy_s_r_l_ .bizcal-main-box .ui-datepicker-next {
+               background-color: #10a585;
+}
+ 
+body._16576396_psiho_test_med_terapy_s_r_l_ .bizcal-main-box .ui-dialog-titlebar-close {
+               background-image: url("images/ui-icons_ffffff_256x240.png");
+               background-position: -94px -126px;
+}
+body._16576396_psiho_test_med_terapy_s_r_l_ .bizcal-main-box .ui-dialog-titlebar-close:hover,
+    body._16576396_psiho_test_med_terapy_s_r_l_ .bizcal-main-box .ui-datepicker-prev:hover,
+    body._16576396_psiho_test_med_terapy_s_r_l_ .bizcal-main-box .ui-datepicker-next:hover,
+               body._16576396_psiho_test_med_terapy_s_r_l_ #bizcal-sel-date .ui-state-hover {
+                   background-color: #10a585 !important;
+                              background-image: none;
+}
+ 
+body._16576396_psiho_test_med_terapy_s_r_l_ .bizcal-main-box div#bizcal-sel-time-container .ui-button {
+    line-height: 32px;
+}
+ 
+body._16576396_psiho_test_med_terapy_s_r_l_ .bizcal-main-box div#bizcal-sel-time-container .ui-selected,
+body._16576396_psiho_test_med_terapy_s_r_l_ .bizcal-main-box div#bizcal-sel-time-container li.ui-selected:hover,
+body._16576396_psiho_test_med_terapy_s_r_l_ .bizcal-main-box div#bizcal-sel-time-container li.ui-selected:focus {
+    background: #10a585;
+    color: white;
+}
+ 
+body._16576396_psiho_test_med_terapy_s_r_l_ .bizcal-main-box input.setrio-bizcal-appointment-button {
+    white-space: normal;
+    text-align: center;
+}
+
+/* OPTICLINIC BUCEGI */
+
+body._34556214_opticlinic_bucegi .bizcal-main-box div.ui-dialog {
+               z-index: 1040;
+}
+
+body._34556214_opticlinic_bucegi .bizcal-main-box .select2-selection__rendered {
+    display: block;
+    width: inherit;
+}
+
+body._34556214_opticlinic_bucegi .bizcal-main-box .ui-widget-header {
+               background-color: #26a7eb;
+               border-color: #26a7eb;
+               background-image: none;
+}
+
+body._34556214_opticlinic_bucegi .bizcal-main-box .ui-widget-content .col-lg-8,
+    body._34556214_opticlinic_bucegi .bizcal-main-box .ui-widget-content .col-xl-8
+{
+               flex-basis: 61.6667%;
+}
+
+body._34556214_opticlinic_bucegi .bizcal-main-box .ui-dialog-titlebar-close {
+               background-image: none;
+               background-color: #26a7eb;
+}
+
+body._34556214_opticlinic_bucegi .bizcal-main-box .ui-widget-header .ui-icon {
+               background-image: url("images/ui-icons_ffffff_256x240.png");
+               background-color: #26a7eb;
+}
+
+body._34556214_opticlinic_bucegi .bizcal-main-box .ui-dialog-titlebar-close, body._34556214_OPTICLINIC_BUCEGI.bizcal-main-box .ui-datepicker-prev,
+    body._34556214_opticlinic_bucegi .bizcal-main-box .ui-datepicker-next {
+               background-color: #26a7eb;
+}
+
+body._34556214_opticlinic_bucegi .bizcal-main-box .ui-dialog-titlebar-close {
+               background-image: url("images/ui-icons_ffffff_256x240.png");
+               background-position: -94px -126px;
+}
+body._34556214_opticlinic_bucegi .bizcal-main-box .ui-dialog-titlebar-close:hover,
+    body._34556214_opticlinic_bucegi .bizcal-main-box .ui-datepicker-prev:hover,
+    body._34556214_opticlinic_bucegi .bizcal-main-box .ui-datepicker-next:hover,
+               body._34556214_opticlinic_bucegi #bizcal-sel-date .ui-state-hover {
+                   background-color: #26a7eb !important;
+                              background-image: none;
+}
+
+body._34556214_opticlinic_bucegi .bizcal-main-box div#bizcal-sel-time-container .ui-button {
+    line-height: 32px;
+}
+
+body._34556214_opticlinic_bucegi .bizcal-main-box div#bizcal-sel-time-container .ui-selected,
+body._34556214_opticlinic_bucegi .bizcal-main-box div#bizcal-sel-time-container li.ui-selected:hover,
+body._34556214_opticlinic_bucegi .bizcal-main-box div#bizcal-sel-time-container li.ui-selected:focus {
+    background: #26a7eb;
+    color: white;
+}
+
+body._34556214_opticlinic_bucegi .bizcal-main-box input.setrio-bizcal-appointment-button {
+    white-space: normal;
+    text-align: center;
+}
+
+/* MISO MEDICAL SRL */
+
+body._34807898_miso_medical_srl .bizcal-main-box .selection-box:before {
+    right: 11px;
+    top: -9px;
+}
+
+body._34807898_miso_medical_srl .bizcal-main-box .selection-box:after {
+    width: 36px;
+    height: 36px;
+}
+
+body._34807898_miso_medical_srl span {
+    -webkit-transition: none;
+	-moz-transition: none;
+	-o-transition: none;
+	-ms-transition: none;
+	transition: none;
+}
+
+body._34807898_miso_medical_srl .bizcal-main-box input[type="search"],
+    body._34807898_miso_medical_srl .bizcal-main-box input[type="text"], 
+    body._34807898_miso_medical_srl .bizcal-main-box input.text {
+    height: 36px;
+}
+
+body._34807898_miso_medical_srl .bizcal-main-box div.ui-dialog {
+    z-index: 999990 !important;
+}
+
+body._34807898_miso_medical_srl .select2-container--open {
+    z-index: 999991 !important;
+}
+
+body._34807898_miso_medical_srl .bizcal-main-box .ui-widget-header {
+    background-color: #7a2f53;
+    border-color: #b65483;
+    background-image: none;
+}
+
+body._34807898_miso_medical_srl .bizcal-main-box .ui-dialog-titlebar-close:hover,
+    body._34807898_miso_medical_srl .bizcal-main-box .ui-datepicker-prev:hover,
+    body._34807898_miso_medical_srl .bizcal-main-box .ui-datepicker-next:hover,
+    body._34807898_miso_medical_srl #bizcal-sel-date .ui-state-hover {
+        background-color: #b65483 !important; 
+        color: white; 
+        background-image: none;
+        border-color: #b68453;
+}
+
+body._34807898_miso_medical_srl .bizcal-main-box div#bizcal-sel-time-container .ui-selected,
+body._34807898_miso_medical_srl .bizcal-main-box div#bizcal-sel-time-container li.ui-selected:hover,
+body._34807898_miso_medical_srl .bizcal-main-box div#bizcal-sel-time-container li.ui-selected:focus {
+    background: #7a2f53;
+    color: white;
+    border-color: #b68453;
+}
+
+body._34807898_miso_medical_srl .bizcal-main-box .ui-dialog-titlebar-close {
+    background-image: none;
+    background-color: #7a2f53;
+}
+
+body._34807898_miso_medical_srl .bizcal-main-box .ui-icon-closethick {
+    background-image: url("images/ui-icons_ffffff_256x240.png");
+}
+
+body._34807898_miso_medical_srl #bizcal-sel-date a.ui-state-active {
+    background-color: #7a2f53;
+    background-image: none;
+}
+
+body._34807898_miso_medical_srl .bizcal-main-box .ui-state-default,
+    body._34807898_miso_medical_srl .bizcal-main-box .ui-widget-content .ui-state-default {
+        color: #7a2f53;
+        border-color: #b68453;
+}
+
+body._34807898_miso_medical_srl .bizcal-main-box div#bizcal-sel-time-container .ui-button:hover,
+body._34807898_miso_medical_srl .bizcal-main-box div#bizcal-sel-time-container .ui-button:focus {
+    border: 1px solid #b68453;
+    background-color: #7a2f53;
+    background-image: none;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+/* DOCTOR TOP */
+
+body._31310915_sc_centrul_medical_tineretului_srl .bizcal-main-box div.ui-dialog {
+    z-index: 999990 !important;
+}
+
+body._31310915_sc_centrul_medical_tineretului_srl .select2-container--open {
+    z-index: 999991 !important;
+}
+
+body._31310915_sc_centrul_medical_tineretului_srl .bizcal-main-box .label {
+    background-color: transparent;
+}
+
+body._31310915_sc_centrul_medical_tineretului_srl .bizcal-main-box .ui-widget-header {
+    background-color: #B94098;
+    border-color: #BA4199;
+    background-image: none;
+}
+
+body._31310915_sc_centrul_medical_tineretului_srl .bizcal-main-box .ui-dialog-titlebar-close:hover,
+    body._31310915_sc_centrul_medical_tineretului_srl .bizcal-main-box .ui-datepicker-prev:hover,
+    body._31310915_sc_centrul_medical_tineretului_srl .bizcal-main-box .ui-datepicker-next:hover,
+    body._31310915_sc_centrul_medical_tineretului_srl #bizcal-sel-date .ui-state-hover {
+        background-color: #B94098 !important; 
+        color: white; 
+        background-image: none;
+        border-color: #BA4199;
+}
+
+body._31310915_sc_centrul_medical_tineretului_srl .bizcal-main-box div#bizcal-sel-time-container .ui-selected,
+body._31310915_sc_centrul_medical_tineretului_srl .bizcal-main-box div#bizcal-sel-time-container li.ui-selected:hover,
+body._31310915_sc_centrul_medical_tineretului_srl .bizcal-main-box div#bizcal-sel-time-container li.ui-selected:focus {
+    background: #B94098;
+    color: white;
+    border-color: #BA4199;
+}
+
+body._31310915_sc_centrul_medical_tineretului_srl .bizcal-main-box .ui-dialog-titlebar-close {
+    background-image: none;
+    background-color: #B94098;
+}
+
+body._31310915_sc_centrul_medical_tineretului_srl .bizcal-main-box .ui-icon-closethick {
+    background-image: url("images/ui-icons_ffffff_256x240.png");
+}
+
+body._31310915_sc_centrul_medical_tineretului_srl #bizcal-sel-date a.ui-state-active {
+    background-color: #B94098;
+    background-image: none;
+}
+
+body._31310915_sc_centrul_medical_tineretului_srl .bizcal-main-box .ui-state-default,
+    body._31310915_sc_centrul_medical_tineretului_srl .bizcal-main-box .ui-widget-content .ui-state-default {
+        color: #B94098;
+        border-color: #BA4199;
+}
+
+body._31310915_sc_centrul_medical_tineretului_srl .bizcal-main-box div#bizcal-sel-time-container .ui-button:hover,
+body._31310915_sc_centrul_medical_tineretului_srl .bizcal-main-box div#bizcal-sel-time-container .ui-button:focus {
+    border: 1px solid #BA4199;
+    background-color: #B94098;
+    background-image: none;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+body._31310915_sc_centrul_medical_tineretului_srl .bizcal-main-box #bizcal-register-appointment-button {
+	appearance: button;
+	background-color: #B94098;
+	color: #ffffff;
+}
+
+body._31310915_sc_centrul_medical_tineretului_srl input.setrio-bizcal-appointment-button {
+	appearance: button;
+	background-color: #B94098;
+	color: #ffffff;
+	padding: 0.5em;
+    border: solid;
+	cursor: pointer;
+}
+
+body._31310915_sc_centrul_medical_tineretului_srl #bizcal-sel-time li.ui-button {
+	padding-left: 0;
+	padding-right: 0;
+}

@@ -1,0 +1,286 @@
+{
+    "theme": {
+        "themes": {
+            "style": {
+                "container": {
+                    "props": {
+                        "class": [
+                            "white"
+                        ]
+                    }
+                },
+                "button": {
+                    "outline": {
+                        "radius": 4,
+                        "size": "3px",
+                        "style": "solid"
+                    }
+                },
+                "input": {
+                    "outline": {
+                        "radius": 1
+                    },
+                    "props": {
+                        "filled": 2,
+                        "color": [
+                            "primary"
+                        ],
+                        "background-color": [
+                            "primary--border"
+                        ]
+                    }
+                },
+                "checkbox": {
+                    "props": {
+                        "color": [
+                            "custom primary-100"
+                        ]
+                    }
+                },
+                "date-picker": {
+                    "props": {
+                        "color": [
+                            "accent"
+                        ],
+                        "header-color": [
+                            "primary"
+                        ]
+                    }
+                },
+                "progress-linear": {
+                    "props": {
+                        "color": [
+                            "primary"
+                        ]
+                    }
+                },
+                "alert": {
+                    "outline": {
+                        "elevation": 3
+                    },
+                    "props": {
+                        "border": "bottom",
+                        "colored-border": 2,
+                        "class": [
+                            "text-subtitle-2"
+                        ]
+                    }
+                },
+                "alert-success": {
+                    "props": {
+                        "class": [
+                            "success--border"
+                        ]
+                    }
+                },
+                "alert-info": {
+                    "props": {
+                        "class": [
+                            "info--border"
+                        ]
+                    }
+                },
+                "alert-warning": {
+                    "props": {
+                        "icon": [
+                            "mdi-alert-circle-outline"
+                        ],
+                        "class": [
+                            "warning--border"
+                        ]
+                    }
+                },
+                "alert-error": {
+                    "props": {
+                        "icon": [
+                            "mdi-alert-circle"
+                        ],
+                        "class": [
+                            "error--border"
+                        ]
+                    }
+                },
+                "card": {
+                    "outline": {
+                        "radius": 4
+                    },
+                    "props": {
+                        "class": [
+                            "white"
+                        ]
+                    }
+                },
+                "card-title": {
+                    "props": {
+                        "class": [
+                            "custom",
+                            "primary-100"
+                        ]
+                    }
+                },
+                "chip-group": {
+                    "props": {
+                        "column": 2
+                    }
+                },
+                "chip": {
+                    "outline": {
+                        "radius": 3
+                    },
+                    "props": {
+                        "active-class": [
+                            "primary"
+                        ]
+                    }
+                },
+                "expansion-panels": {
+                    "outline": {
+                        "elevation": 3
+                    },
+                    "props": {
+                        "mandatory": 2,
+                        "accordion": 2,
+                        "focusable": 2,
+                        "class": [
+                            "mb-3"
+                        ]
+                    }
+                },
+                "expansion-panel": {
+                    "props": {
+                        "class": [
+                            "primary--border"
+                        ]
+                    }
+                },
+                "expansion-panel-header": {
+                    "props": {
+                        "class": [
+                            "primary lighten-1"
+                        ]
+                    }
+                }
+            },
+            "custom": {
+                "default": {
+                    "base": "#00000000"
+                },
+                "disabled": {
+                    "base": "#0000001f"
+                },
+                "disabled_text": {
+                    "base": "#00000042"
+                },
+                "custom": {
+                    "base": "#FFFFFFFF",
+                    "primary-100": "#1EA5C7FF",
+                    "primary-110": "#198CA9FF",
+                    "primary-70": "#5CCAE6FF",
+                    "primary-30": "#ABE8F7FF",
+                    "primary-10": "#F5FCFFFF",
+                    "green-100": "#2EA81BFF",
+                    "green-20": "#D5EED1FF",
+                    "green-10": "#EAF6E8FF",
+                    "yellow-100": "#FFC715FF",
+                    "yellow-40": "#FFE9A1FF",
+                    "blue-100": "#3093F8FF",
+                    "blue-20": "#D6E9FEFF",
+                    "blue-10": "#EAF4FEFF",
+                    "orange-100": "#F77C00FF",
+                    "orange-20": "#FDE5CCFF",
+                    "orange-15": "#FEECD9FF",
+                    "grey-5": "#97A1A6FF",
+                    "grey-4": "#D5DBDEFF",
+                    "grey-3": "#E3E9ECFF",
+                    "grey-2": "#F2F8FAFF",
+                    "grey-1": "#F8FBFDFF"
+                }
+            },
+            "text": {
+                "light": {
+					"anchor": {
+                        "base": "white"
+                    },
+                    "primary": {
+                        "base": "white"
+                    },
+                    "secondary": {
+                        "base": "custom primary-100"
+                    },
+                    "info": {
+                        "base": "white"
+                    }
+                },
+                "custom": {
+                    "custom": {
+                        "base": "black",
+                        "primary-30": "custom primary-100",
+                        "primary-10": "custom primary-100",
+                        "primary-100": "white",
+                        "primary-110": "white",
+                        "primary-70": "white"
+                    }
+                },
+                "default": {
+                    "white": {
+                        "base": "black"
+                    }
+                }
+            },
+            "border": {
+                "light": {
+                    "primary": {
+                        "base": "custom primary-100"
+                    },
+                    "secondary": {
+                        "base": "custom primary-100"
+                    },
+                    "info": {
+                        "base": "custom primary-100"
+                    }
+                }
+            },
+            "background": {
+                "light": {
+                    "anchor": {
+                        "base": "custom blue-100"
+                    },
+                    "primary": {
+                        "base": "custom primary-100",
+                        "lighten-1": "custom primary-70",
+                        "lighten-2": "custom primary-30",
+                        "lighten-3": "custom primary-10",
+                        "darken-1": "custom primary-110"
+                    },
+                    "secondary": {
+                        "base": "white"
+                    },
+                    "accent": {
+                        "base": "custom blue-100"
+                    },
+                    "info": {
+                        "base": "custom primary-100"
+                    }
+                },
+                "custom": {
+                    "custom": {
+                        "base": "primary"
+                    }
+                }
+            },
+            "text-background": {
+                "light": {
+					"anchor": {
+                        "base": "custom blue-100"
+                    },
+                    "primary": {
+                        "base": "custom primary-10"
+                    },
+                    "info": {
+                        "base": "white"
+                    }
+                }
+            }
+        }
+    }
+}

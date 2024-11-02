@@ -1,0 +1,50 @@
+.setrio-bizcal-related span{
+	color:inherit;
+}
+.setrio-bizcal-related .select2-dropdown--below {
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+}
+.setrio-bizcal-related .select2-dropdown--above {
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+}
+.setrio-bizcal-related .select2-container--jquery-ui .select2-selection--single.ui-button{
+	width:100%;
+	padding:initial;
+}
+.setrio-bizcal-related .select2-container--jquery-ui .select2-selection--single.ui-button .select2-selection__placeholder{
+	color:inherit;
+}
+.setrio-bizcal-related .select2-container--jquery-ui .select2-selection--single.ui-button .select2-selection__rendered{
+	color:inherit;
+}
+.setrio-bizcal-related .select2-container--jquery-ui .select2-selection--single .select2-selection__arrow.ui-icon{
+	height: 16px;
+    margin-top: 5px;
+    right: 0;
+    top: 0;
+	position:absolute;
+}
+.setrio-bizcal-related .select2-container--jquery-ui .select2-selection--single .select2-selection__arrow.ui-icon > b{
+	display:none;
+}
+.setrio-bizcal-related .select2-results__option.ui-state-active{
+	margin:0;
+	border-left-width:0;
+	border-right-width:0;
+}
+
+.setrio-bizcal-related .select2-container--jquery-ui.select2-container .select2-selection--single{
+	height:34px;
+	line-height: 32px;
+}
+.setrio-bizcal-related .select2-container--jquery-ui .select2-selection--single .select2-selection__arrow.ui-icon{
+	top:3px;
+}
+#bizcal-register-appointment-form input[type=checkbox]{
+	vertical-align:middle;
+}
+.bizcal-sel-serv-selected-price, .bizcal-sel-med-selected-price{
+	text-align:right;
+}

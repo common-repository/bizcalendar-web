@@ -1,0 +1,51 @@
+.bizcal-vue-popup,
+.bizcal-vue-popup .bizcal-vue-app{
+	display:inline;
+}
+.bizcal-vue:hover .bizcal-vue-app{
+	position:relative;
+	z-index:200000;
+}
+.bizcal-vue-inline,
+.bizcal-vue-inline .bizcal-vue-app{
+	display:flex;
+}
+.bizcal-vue{
+	flex-direction:column;
+}
+.bizcal-vue-inline.bizcal-vue-app{
+	flex-direction:row;
+}
+
+.bizcal-vue {
+	font-size: 16px;
+	font-weight:normal;
+}
+.bizcal-vue * {
+	color: inherit;
+	background-color: transparent;
+	line-height: inherit;
+	font-weight: inherit;
+}
+.bizcal-vue-grecaptcha-wrapper,
+.bizcal-vue-grecaptcha-wrapper *{
+	max-width:100% !important;
+}
+/* 
+.setrio.setrio-bizcal.setrio-bizcal-related.bizcal-vue .bizcal-vue-app .v-application .v-date-picker-table__events>div{
+	margin: 0;
+	border-width: 2px;
+    border-style: solid;
+	height: 100%;
+    width: 100%;
+	background-color: transparent !important;
+}
+.setrio.setrio-bizcal.setrio-bizcal-related.bizcal-vue .bizcal-vue-app .v-date-picker-table--date .v-date-picker-table__events{
+	bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    z-index: -1;
+    display: flex;
+} */

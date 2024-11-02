@@ -1,0 +1,23 @@
+{
+    "name": "netopia/payment",
+    "description": "Set of library that give you the means to incorporate NETOPIA Payments functionality into your website applications and mobile apps.",
+    "type": "library",
+    "license": "AGPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "NETOPIA Payments",
+            "email": "implementare@netopia-system.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.5",
+        "ext-dom": "*",
+        "ext-simplexml": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Netopia\\Payment\\": "src/"
+        }
+    }
+}
